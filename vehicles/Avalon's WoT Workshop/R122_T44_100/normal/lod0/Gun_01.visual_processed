@@ -1,0 +1,191 @@
+<exporter_002_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Gun	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	G	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 2.485491	</row3>
+				</transform>
+				<node>
+					<identifier>	HP_gunFire	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 1.971783	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	GBlendBonedefault	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	-0.000000 -0.000000 -2.485491	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	GunBlendBonedefault	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-0.000000 -0.000000 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	GBlendBonedefault	</node>
+		<node>	GunBlendBonedefault	</node>
+		<geometry>
+			<vertices>	default.vertices	</vertices>
+			<primitive>	default.indices	</primitive>
+			<primitiveGroup>
+				0
+				<material>
+					<identifier>t44100gun</identifier>
+					<fx>shaders/std_effects/PBS_tank_skinned.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>3.50685 1.75342 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T44_100_guns_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T44_100_guns_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T44_100_guns_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T44_100_guns_AO.dds</Texture>
+					</property>
+					<property>colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T44_100_guns_ID.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>-0.027860000729560852 0.009603000245988369 -2.21753191947937</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				1
+				<material>
+					<identifier>t54gun</identifier>
+					<fx>shaders/std_effects/PBS_tank_skinned.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.1</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>7</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T54_guns_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T54_guns_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T54_guns_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T54_guns_01_AO.dds</Texture>
+					</property>
+					<property>colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/R122_T44_100/T54_guns_ID.dds</Texture>
+					</property>
+				</material>
+				<groupOrigin>1.5999999959603883e-05 0.07419800013303757 -2.4027040004730225</groupOrigin>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.408987 -0.269753 -0.081239	</min>
+		<max>	0.353268 0.288959 4.544816	</max>
+	</boundingBox>
+</exporter_002_temp.visual>

@@ -1,0 +1,10 @@
+<hull.model>
+  <tank>	true	</tank>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.63048 -0.542086 -3.4693</min>
+    <max>1.62674 0.643446 3.0296</max>
+  </visibilityBox>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/R122_T44_100/normal/lod0/Hull</nodefullVisual>
+</hull.model>
